@@ -20,10 +20,10 @@ const userSchema = mongoose.Schema({
         required: true,
         default: false,
     },
-    pic:{
-        type: String,
-        required: true,
-    }
+    // pic:{
+    //     type: String,
+    //     required: true,
+    // }
     
 },
 {
