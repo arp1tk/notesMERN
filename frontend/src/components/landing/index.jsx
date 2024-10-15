@@ -24,7 +24,7 @@ const Landing = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="text-6xl font-bold mb-8 text-center text-white"
         >
-          Welcome to <span className="text-purple-400">Notess</span>
+          Welcome to <span className="text-purple-400">NoteSphere</span>
         </motion.h1>
         <motion.p
           initial={{ y: 50, opacity: 0 }}

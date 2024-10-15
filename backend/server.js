@@ -9,7 +9,13 @@ const connectDB = require('./config/db');
 const { notFound , errorHandler } = require('./middlewares/errorMiddleware')
 
 
-app.use(cors());
+app.use(cors(
+    {
+        origin:[],
+        methods:["POST","GET"],
+        credentials: true
+    }
+));
 app.use(express.json());
 
 

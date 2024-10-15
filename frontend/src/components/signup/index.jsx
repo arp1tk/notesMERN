@@ -71,7 +71,7 @@ const Signup = () => {
             transition={{ duration: 0.5 }}
             className="w-full max-w-md bg-gray-800 p-8 rounded-xl shadow-lg"
           >
-            <h2 className="text-3xl font-bold text-center text-purple-400 mb-6">Join Notess</h2>
+            <h2 className="text-3xl font-bold text-center text-purple-400 mb-6">Join NoteSphere</h2>
             <form onSubmit={handleSignup} className="space-y-6">
               <div>
                 <label htmlFor="name" className="block text-sm text-gray-400 mb-1">Name</label>
