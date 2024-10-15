@@ -11,7 +11,7 @@ const { notFound , errorHandler } = require('./middlewares/errorMiddleware')
 
 app.use(cors(
     {
-        origin:[],
+        origin:"*",
         methods:["GET", "POST", "PUT", "DELETE"],
         credentials: true
     }
