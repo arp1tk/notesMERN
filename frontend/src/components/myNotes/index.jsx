@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { X, Edit, Trash2, Plus, Folder, ChevronDown } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const API_URL =  'http://localhost:5000/api';
+const API_URL =  'https://ec2-13-235-128-92.ap-south-1.compute.amazonaws.com/api';
 
 export default function Component() {
   const [notes, setNotes] = useState([]);

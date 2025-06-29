@@ -25,7 +25,7 @@ const Login = () => {
       };
       
       const { data } = await axios.post(
-        "http://localhost:5000/api/users/login",
+        "https://ec2-13-235-128-92.ap-south-1.compute.amazonaws.com/api/users/login",
         { email, password },
         config
       );
